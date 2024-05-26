@@ -159,6 +159,7 @@ select::-ms-expand {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  margin-bottom: 3rem ;
 }
 .New-Home-last-section-squad::before,
 .New-Home-last-section-squad::after {
@@ -220,4 +221,15 @@ select::-ms-expand {
 .New-Home-last-section-squad-column {
   overflow: hidden;
 }
-
+.New-Home-last-section-squad-coach  {
+  display: flex;
+}
+.New-Home-last-section-squad-coach img {
+  margin: auto;
+  
+}
+@media (max-width:500px){
+  .New-Home-last-section-squad-coach img {
+   height: 200px;
+  }
+}
