@@ -102,3 +102,122 @@ select::-ms-expand {
 /* ============================================================ */
 /* ============================================================ */
 /* ============================================================ */
+.New-Home-1st-section{
+  background-image: url(../Assets/Img/Header.png);
+  height: 100vh;
+}
+#New-Home .New-Home-2nd-section-container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1.2fr;
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  gap: 40px;
+}
+#New-Home .New-Home-2nd-section-container p {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 3.5rem;
+  text-align: justify;
+}
+#New-Home .New-Home-2nd-section-container img {
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 100%;
+  align-self: baseline;
+}
+.New-Home-2nd-section-container::before,
+.New-Home-2nd-section-container::after {
+    content: none;
+    display: none; 
+}
+
+@media (max-width:767px) {
+  #New-Home .New-Home-2nd-section-container{
+    grid-template-columns: 2fr;
+  }
+}
+
+
+/* last section  */
+
+.New-Home-last-section{
+  margin-top: 6rem;
+  background-image: url(../Assets/Img/BG.png);
+  padding-top: 4rem;
+}
+.New-Home-last-section h2{
+  text-align: center;
+  color: #fff;
+  font-size: 3rem !important;
+  margin-bottom: 3rem;
+}
+.New-Home-last-section-squad{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.New-Home-last-section-squad::before,
+.New-Home-last-section-squad::after {
+    content: none;
+    display: none; 
+}
+.New-Home-last-section-squad-column{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.New-Home-last-section-squad-column img{
+  flex-grow: 0;
+}
+@media (max-width:1450px){
+  .New-Home-last-section-squad-column img {
+    height: 200px;
+  }
+}
+
+@media (max-width:1200px){
+  .New-Home-last-section-squad-column img {
+    height: 150px;
+  }
+}
+@media (max-width:990px){
+  .New-Home-last-section-squad-column img {
+    height: 130px !important;
+    width: fit-content;
+    align-self: center;
+  }
+}
+@media (max-width:767px) {
+  .New-Home-last-section-squad{
+   
+    grid-template-columns: 1fr 1fr ;
+    
+  }
+  .New-Home-last-section-squad-column img {
+    height: unset;
+   
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+.New-Home-last-section-squad-column {
+  overflow: hidden;
+}
+
