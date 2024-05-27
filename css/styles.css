@@ -15,39 +15,14 @@
   --rounded-sm: 0.5rem;
 }
 @font-face {
-  font-family: "Lato-thine";
-  src: url("../fonts/Lato-Thin.ttf");
-}
-@font-face {
-  font-family: "Lato-Light";
-  src: url("../fonts/Lato-Light.ttf");
-}
-@font-face {
-  font-family: "Lato-Regular";
-  src: url("../fonts/Lato-Regular.ttf");
-}
-@font-face {
-  font-family: "Lato-Bold";
-  src: url("../fonts/Lato-Bold.ttf");
-}
-@font-face {
-  font-family: "Lato-Black";
-  src: url("../fonts/Lato-Black.ttf");
+  font-family: "NeoSans-Light";
+  src: url("../fonts/NeoSansArabicLight.ttf");
 }
 
 @font-face {
-  font-family: "Sans-Light";
-  src: url("../fonts/TheSansArab-Light.ttf");
+  font-family: "NeoSans-Regular";
+  src: url("../fonts/Neo\ Sans\ Arabic\ Regular.ttf");
 }
-@font-face {
-  font-family: "Sans-Regular";
-  src: url("../fonts/TheSansArab-Plain.ttf");
-}
-@font-face {
-  font-family: "Sans-Bold";
-  src: url("../fonts/TheSansArab-Bold.ttf");
-}
-
 @font-face {
   font-family: "NeoSans-Medium";
   src: url("../fonts/NeoSansArabicMedium.ttf");
@@ -57,23 +32,20 @@
   src: url("../fonts/NeoSansArabicBold.ttf");
 }
 @font-face {
-  font-family: "NeoSans-Ultra";
-  src: url("../fonts/NeoSansArabicUltra.ttf");
-}
-@font-face {
   font-family: "NeoSans-Black";
   src: url("../fonts/NeoSansArabicBlack.ttf");
 }
 
+
 p {
-  font-family: Lato-Regular;
+  font-family: NeoSans-Regular;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: Lato-Bold;
+  font-family: NeoSans-Bold;
   color: rgba(17, 56, 87, 1);
 }
 
@@ -120,20 +92,21 @@ select::-ms-expand {
 /* ============================================================ */
 /* ============================================================ */
 .New-Home-1st-section {
-  background-image: url(../Assets/Img/Header.png);
+  background-image: url(../Assets/Img/1.jpg);
+  background-repeat: no-repeat;
   height: 100vh;
 }
 #New-Home .New-Home-2nd-section-container {
   width: 100%;
   display: grid;
-  grid-template-columns: 2fr 1.2fr;
+  grid-template-columns: 2fr 1fr;
   align-items: center;
   margin-top: 8rem;
   margin-bottom: 3rem;
   gap: 40px;
 }
 #New-Home .New-Home-2nd-section-container p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 800;
   line-height: 3.5rem;
   text-align: justify;
