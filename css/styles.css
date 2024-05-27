@@ -91,10 +91,11 @@ select::-ms-expand {
 /* ============================================================ */
 /* ============================================================ */
 /* ============================================================ */
-.New-Home-1st-section {
-  background-image: url(../Assets/Img/1.jpg);
+.New-Home-1st-section img {
+  /* background-image: url(../Assets/Img/1.jpg);
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100vh; */
+  width: 100%;
 }
 #New-Home .New-Home-2nd-section-container {
   width: 100%;
