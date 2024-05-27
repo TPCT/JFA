@@ -188,6 +188,17 @@ select::-ms-expand {
   .New-Home-last-section-squad-column img {
     height: unset;
   }
+  .New-Home-last-section-squad-column img {
+    height: 220px !important;
+
+  }
+}
+@media (max-width: 400px) {
+ 
+  .New-Home-last-section-squad-column img {
+    height: 200px !important;
+
+  }
 }
 
 @keyframes slideInUp {
