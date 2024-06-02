@@ -106,9 +106,9 @@ select::-ms-expand {
   gap: 40px;
 }
 #New-Home .New-Home-2nd-section-container p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 800;
-  line-height: 3.5rem;
+  line-height: 1.8;
   text-align: justify;
 }
 #New-Home .New-Home-2nd-section-container img {
@@ -116,6 +116,8 @@ select::-ms-expand {
   border-radius: 10px;
   width: 100%;
   align-self: baseline;
+  max-width: 600px;
+  margin-inline: auto;
 }
 .New-Home-2nd-section-container::before,
 .New-Home-2nd-section-container::after {
@@ -290,6 +292,9 @@ select::-ms-expand {
 }
 .New-Home-middle-section .single-card img {
   width: 100%;
+  max-height: 415px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 .New-Home-middle-section .single-card div {
   width: 100%;
@@ -312,13 +317,13 @@ select::-ms-expand {
   transition: all 1s ease-out;
 }
 .New-Home-middle-section .single-card div h4 {
-  font-size: 2.5rem !important;
+  font-size: 1.8rem !important;
   color: #e81e25;
   font-family: "NeoSans-Medium";
   padding-bottom: 1rem;
 }
 .New-Home-middle-section .single-card div p {
-  font-size: 1.75rem !important;
+  font-size: 1.5rem !important;
   line-height: 1.8;
   font-family: "NeoSans-Medium";
   text-align: justify;
